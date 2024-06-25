@@ -3,4 +3,4 @@ service:
 persistence:
   enabled: false
 jenkinsPassword: student123
-jenkinsUser: user
+jenkinsUser: julo
