@@ -1,12 +1,12 @@
 apiVersion: apps/v1
-kindd: Deployment
+kind: Deployment
 metadata:
   creationTimestamp: null
   labels:
     app: frontend
   name: frontend
 spec:
-  replicas: 2
+  repliacas: 2
   selector:
     matchLabels:
       app: frontend
