@@ -1,12 +1,14 @@
-project: default
-source:
-  repoURL: 'https://github.com/tranzzik/argo-cd-katas'
-  path: apps
-  targetRevision: HEAD
-destination:
-  server: 'https://kubernetes.default.svc'
-  namespace: student-10
-syncPolicy:
-  automated:
-    prune: true
-    selfHeal: true
+kind: Application
+spec:
+  project: default
+  source:
+    repoURL: 'https://github.com/tranzzik/argo-cd-katas'
+    path: apps
+    targetRevision: HEAD
+  destination:
+    server: 'https://kubernetes.default.svc'
+    namespace: student-10
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
