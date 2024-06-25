@@ -1,5 +1,5 @@
 apiVersion: apps/v1
-kind: Deployment
+kindd: Deployment
 metadata:
   creationTimestamp: null
   labels:
